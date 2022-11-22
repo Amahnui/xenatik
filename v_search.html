@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head>
+    <meta charset="utf-8">
+    <title>Xenatik | Home, page</title>
+    <!-- SEO Meta Tags-->
+    <meta name="Xenatik" content="Customer Engagement platform for E-commerce brands">
+    <meta name="author" content="Bickdrim">
+    <!-- Viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon and Touch Icons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#080032">
+    <meta name="theme-color" content="white">
+    <!-- Theme mode-->
+    <script>
+        let mode = window.localStorage.getItem('mode'),
+            root = document.getElementsByTagName('html')[0];
+        if (mode !== undefined && mode === 'dark') {
+            root.classList.add('dark-mode');
+        } else {
+            root.classList.remove('dark-mode');
+        }
+    </script>
+
+    <!-- Import Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"
+        id="google-font">
+    <!-- Vendor styles-->
+    <link rel="stylesheet" media="screen" href="assets/vendor/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" media="screen" href="assets/vendor/aos/dist/aos.css" />
+    <!-- Main Theme Styles + Bootstrap-->
+    <link rel="stylesheet" media="screen" href="assets/css/theme.min.css">
+    <!-- Customizer generated styles-->
+    <style id="customizer-styles"></style>
+    <!-- Google Tag Manager-->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-WKV3GT5');
+    </script>
+</head>
+<!-- Body-->
+
+<body>
+
+    <!-- Page wrapper-->
+    <main class="page-wrapper">
+        <div class="dark-mode">
+            <!-- Navbar. Remove 'fixed-top' class to make the navigation bar scrollable with the page-->
+            <header class="navbar navbar-expand-lg fixed-top">
+                <div class="container"><a class="navbar-brand pe-sm-3" href="index.html"><span
+                            class="text-primary flex-shrink-0 me-2">
+                            <svg width="200" height="25" viewBox="0 0 215 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M30.0709 8.2093C30.4888 8.53447 30.4582 9.10739 30.1983 9.56934C29.7727 10.3255 27.5072 13.7398 22.1709 14.6327C22.1021 14.6456 20.9859 14.7179 20.8483 14.7179C18.0069 14.6818 15.8688 15.1515 14.2658 15.8224C11.4499 16.9967 9.41372 19.5619 8.82759 22.5865C8.75623 22.9582 8.71291 23.3143 8.72056 23.6188C8.79701 26.3492 9.92339 27.7764 11.7047 28.8009C12.5584 29.2913 13.5472 29.57 14.5997 29.57C17.0767 29.57 19.1944 28.019 20.0608 25.8228C20.3284 25.1389 20.4788 24.3956 20.4788 23.6162C20.4788 22.8498 20.4915 22.5762 20.2316 21.9026C20.1067 21.5749 19.518 20.0419 20.9834 19.1774C21.6281 18.798 22.3671 18.5683 23.1648 18.5683C25.5144 18.5683 27.4537 20.4961 27.4206 22.8782C27.4078 23.7504 26.6815 25.3066 26.0037 26.086L26.0011 26.0886C23.3253 29.4719 19.2122 31.6397 14.5971 31.6397C11.8729 31.6397 9.32197 30.8836 7.13801 29.5674C6.86024 29.3997 6.58501 29.2216 6.31998 29.0358C4.76037 27.9519 3.42247 26.566 2.38274 24.9608C0.876643 22.6356 0 19.851 0 16.8599C0 12.2017 2.12535 8.04929 5.44844 5.33695C5.95556 4.92145 6.49072 4.54208 7.05137 4.19885C7.52537 3.9098 7.64769 3.26462 7.3113 2.82074C6.72772 2.04652 6.06769 1.33424 5.3465 0.694216C5.11715 0.490338 5.23437 0.108391 5.54018 0.0774219C6.03202 0.0258073 6.53405 0 7.03863 0C9.76284 0 12.3138 0.756153 14.4977 2.07232C14.5309 2.06974 14.5691 2.06974 14.6022 2.06974C19.1536 2.15749 22.8743 4.00529 25.5501 7.0712C26.126 7.73186 27.0281 8.01574 27.864 7.77832C28.0806 7.71638 28.2921 7.69831 28.5444 7.68283C29.2579 7.64154 29.6479 7.88154 30.0709 8.2093Z"
+                                    fill="white" />
+                                <path
+                                    d="M62.1425 30.414L52.7134 17.1593C52.6523 17.0742 52.6523 16.9606 52.7134 16.8729L60.537 5.84542C60.6516 5.68284 60.537 5.45831 60.3407 5.45831H53.2766C53.1951 5.45831 53.1212 5.49702 53.0753 5.56412L49.1661 11.4043C49.0693 11.5463 48.8628 11.5463 48.766 11.4069L44.7523 5.56154C44.709 5.49702 44.6351 5.45831 44.5535 5.45831H37.4894C37.2932 5.45831 37.1785 5.68284 37.2932 5.84542L45.1142 16.8729C45.1753 16.958 45.1753 17.0742 45.1142 17.1593L35.6342 30.414C35.5195 30.574 35.6317 30.8011 35.8304 30.8011H42.841C42.92 30.8011 42.9939 30.7624 43.0372 30.6978L48.7176 22.6176C48.8144 22.4782 49.0157 22.4808 49.11 22.6176L54.7369 30.6978C54.7827 30.7624 54.8566 30.8011 54.9356 30.8011H61.9462C62.145 30.8011 62.2571 30.574 62.1425 30.414Z"
+                                    fill="white" />
+                                <path
+                                    d="M86.0765 8.55C83.6657 6.1267 80.6383 4.91376 76.9941 4.91376C73.3499 4.91376 70.2766 6.1267 67.7766 8.55C65.2766 10.9759 64.0254 14.1399 64.0254 18.0471C64.0254 21.9543 65.2766 25.1493 67.7766 27.6267C70.2766 30.1042 73.3499 31.343 76.9941 31.343C79.494 31.343 81.7978 30.8372 83.9078 29.8255C85.9389 28.8474 87.4909 27.3816 88.5612 25.4305C88.6249 25.3118 88.5765 25.157 88.4592 25.0925C86.2422 23.8924 84.7208 23.064 83.8976 22.6098C83.783 22.5479 83.6428 22.5917 83.5765 22.7027C83.0057 23.6524 82.1877 24.3905 81.1199 24.9118C79.9757 25.4744 78.7448 25.7531 77.4222 25.7531C75.5644 25.7531 74.0023 25.2654 72.7332 24.2899C71.538 23.3685 70.8117 22.1427 70.5518 20.6097C70.5263 20.4626 70.6435 20.3284 70.7913 20.3284H89.3639C89.4913 20.3284 89.5958 20.2278 89.606 20.1013C89.6646 19.3865 89.6952 18.7026 89.6952 18.0471C89.6952 14.1399 88.4898 10.9759 86.0765 8.55ZM83.0312 15.8225H70.7455C70.5951 15.8225 70.4779 15.6857 70.5059 15.536C70.7913 14.0082 71.4998 12.7927 72.6262 11.8895C73.8239 10.9294 75.2969 10.4494 77.0476 10.4494C78.6913 10.4494 80.0853 10.9217 81.2269 11.8611C82.3049 12.7488 82.9879 13.9747 83.2707 15.536C83.2988 15.6857 83.1816 15.8225 83.0312 15.8225Z"
+                                    fill="white" />
+                                <path
+                                    d="M116.086 7.70869C114.46 5.84798 112.164 4.91376 109.201 4.91376C107.7 4.91376 106.252 5.30345 104.861 6.08283C103.739 6.70736 102.847 7.50481 102.19 8.47C102.055 8.66614 101.752 8.57065 101.752 8.33064V5.70346C101.752 5.56668 101.645 5.45829 101.51 5.45829H95.4546C95.3221 5.45829 95.2151 5.56668 95.2151 5.70346V30.5559C95.2151 30.6927 95.3221 30.801 95.4546 30.801H101.51C101.645 30.801 101.752 30.6927 101.752 30.5559V17.2884C101.752 15.2263 102.261 13.7244 103.278 12.785C104.298 11.843 105.61 11.3733 107.218 11.3733C108.683 11.3733 109.843 11.8611 110.702 12.8392C111.558 13.8147 111.986 15.2083 111.986 17.0174V30.5559C111.986 30.6927 112.096 30.801 112.228 30.801H118.283C118.418 30.801 118.525 30.6927 118.525 30.5559V15.8225C118.525 12.2766 117.712 9.57455 116.086 7.70869Z"
+                                    fill="white" />
+                                <path
+                                    d="M150.864 5.45829H144.809C144.677 5.45829 144.567 5.56668 144.567 5.70346V7.85837C144.567 8.09063 144.282 8.1887 144.136 8.00805C143.359 7.04286 142.35 6.30993 141.111 5.80927C139.628 5.21312 138.191 4.91376 136.797 4.91376C133.331 4.91376 130.339 6.13702 127.822 8.57839C125.304 11.0198 124.045 14.1941 124.045 18.1013C124.045 22.0085 125.311 25.1854 127.85 27.6268C130.385 30.0681 133.367 31.2888 136.797 31.2888C138.191 31.2888 139.646 30.9636 141.165 30.3133C142.421 29.7739 143.413 29.0513 144.144 28.1403C144.284 27.9648 144.567 28.0732 144.567 28.3003V30.5559C144.567 30.6927 144.677 30.8011 144.809 30.8011H150.864C150.997 30.8011 151.106 30.6927 151.106 30.5559V5.70346C151.106 5.56668 150.997 5.45829 150.864 5.45829ZM142.531 23.0666C141.173 24.3157 139.567 24.9402 137.709 24.9402C135.852 24.9402 134.233 24.2976 132.86 23.0124C131.484 21.7298 130.796 20.0936 130.796 18.1013C130.796 16.1141 131.484 14.4754 132.86 13.1902C134.233 11.9075 135.852 11.2649 137.709 11.2649C139.531 11.2649 141.129 11.8791 142.505 13.1102C143.879 14.3386 144.567 16.0031 144.567 18.1013C144.567 20.1633 143.889 21.8201 142.531 23.0666Z"
+                                    fill="white" />
+                                <path
+                                    d="M172.138 5.45826H167.317C167.289 5.45826 167.263 5.4531 167.238 5.44278H160.428C160.403 5.4531 160.377 5.45826 160.349 5.45826H156.277C156.144 5.45826 156.035 5.56665 156.035 5.70343V10.532C156.035 10.6662 156.144 10.7771 156.277 10.7771H160.349C160.482 10.7771 160.591 10.8855 160.591 11.0197V30.5558C160.591 30.6926 160.698 30.801 160.834 30.801H166.832C166.967 30.801 167.074 30.6926 167.074 30.5558V11.0197C167.074 10.8855 167.184 10.7771 167.317 10.7771H172.138C172.273 10.7771 172.38 10.6662 172.38 10.532V5.70343C172.38 5.56665 172.273 5.45826 172.138 5.45826Z"
+                                    fill="white" />
+                                <path
+                                    d="M183.552 5.45831H177.551C177.418 5.45831 177.311 5.5667 177.311 5.70348V30.5559C177.311 30.6927 177.418 30.8011 177.551 30.8011H183.552C183.687 30.8011 183.794 30.6927 183.794 30.5559V5.70348C183.794 5.5667 183.687 5.45831 183.552 5.45831Z"
+                                    fill="white" />
+                                <path
+                                    d="M214.935 30.3907L202.701 16.7515C202.617 16.656 202.617 16.5115 202.706 16.4186L212.662 5.87118C212.81 5.71634 212.701 5.45826 212.486 5.45826H204.691C204.625 5.45826 204.561 5.48665 204.515 5.53569L198.093 12.594C197.943 12.7591 197.673 12.6508 197.673 12.4288V5.44278H191.19V30.5558C191.19 30.6926 191.297 30.801 191.432 30.801H197.431C197.566 30.801 197.673 30.6926 197.673 30.5558V20.5968C197.673 20.3697 197.948 20.2639 198.096 20.4342L207.033 30.7184C207.079 30.7701 207.145 30.801 207.214 30.801H214.757C214.969 30.801 215.078 30.5481 214.935 30.3907Z"
+                                    fill="white" />
+                            </svg></a>
+                    <div class="form-check form-switch mode-switch order-lg-2 me-3 me-lg-4 ms-auto"
+                        data-bs-toggle="mode">
+                        <input class="form-check-input" type="checkbox" id="theme-mode">
+                        <label class="form-check-label" for="theme-mode"><i class="ai-sun fs-lg"></i></label>
+                        <label class="form-check-label" for="theme-mode"><i class="ai-moon fs-lg"></i></label>
+                    </div><a class="btn btn-primary btn-sm rounded-pill fs-sm order-lg-3 d-none d-sm-inline-flex"
+                        href="contact.html" rel="noopener">Schedule Demo</a>
+                    <button class="navbar-toggler ms-sm-3" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+
+                    <nav class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav navbar-nav-scroll me-auto" style="--ar-scroll-height: 520px;">
+
+                            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#"
+                                    data-bs-toggle="dropdown" data-bs-auto-close="outside"
+                                    aria-expanded="false">Products</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="engage.html">Xenatik Engage</a></li>
+                                    <li><a class="dropdown-item" href="v_search.html">Xenatik V-search</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
+                            <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                        </ul>
+                        <div class="d-sm-none p-3 mt-n3"><a class="btn btn-primary w-100  mb-1" href="contact.html"
+                                rel="noopener">Schedule Demo</a></div>
+                    </nav>
+                </div>
+            </header>
+        </div>
+
+
+        <section class="position-relative pt-5">
+            <div class="position-absolute top-0 start-0 w-100" style="height: 79%;">
+                <div class="bg-primary position-absolute top-0 start-0 w-100 h-100"></div>
+                <div class="position-absolute start-0 bottom-0 w-100 overflow-hidden mb-n1"
+                    style="padding-bottom: 6.2%; color: var(--ar-body-bg);">
+                    <svg class="position-absolute start-0 bottom-0 w-100 h-100" viewBox="0 0 3000 185.4"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill="currentColor"
+                            d="M3000,0v185.4H0V0c496.4,115.6,996.4,173.4,1500,173.4S2503.6,115.6,3000,0z"></path>
+                    </svg>
+                </div>
+            </div>
+            <svg class="position-absolute end-0 zindex-2 mt-4 mt-sm-5" width="836" height="755" fill="none"
+                stroke="white" stroke-miterlimit="10" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M21.253 754.495c-18.309-66.796-31.642-139.581-6.067-203.929 33.531-84.307 126.54-131.543 216.622-142.348 90.082-10.831 180.803 7.052 271.284 13.945s187.376.931 261.969-50.776C868.476 299.694 902.433 159.981 995.762 75.54 1073.58 5.151 1191.04-18.081 1289.8 17.446M89.774 754.494c-17.324-63.177-29.938-132.049-5.748-192.911 31.722-79.756 119.701-124.438 204.913-134.657 85.239-10.246 171.036 6.68 256.621 13.2s177.263.878 247.812-48.035c97.852-67.835 129.947-199.99 218.248-279.853 73.61-66.584 184.74-88.565 278.15-54.954M158.305 754.496c-16.313-59.585-28.235-124.492-5.402-181.894 29.912-75.206 112.862-117.333 193.231-126.966 80.368-9.661 161.269 6.307 241.983 12.427 80.715 6.148 167.151.825 233.655-45.293 92.264-63.949 122.522-188.574 205.768-263.886 69.4-62.805 174.17-83.509 262.26-51.814M226.834 754.495c-15.328-55.965-26.532-116.96-5.083-170.876 28.103-70.655 106.023-110.228 181.521-119.276 75.499-9.074 151.503 5.908 227.321 11.683s157.011.772 219.497-42.553c86.675-60.09 115.097-177.157 193.31-247.891 65.2-59 163.64-78.453 246.37-48.674M295.359 754.495c-14.344-52.372-24.802-109.429-4.763-159.859 26.266-66.104 99.183-103.122 169.812-111.584 70.628-8.489 141.736 5.535 212.657 10.937s146.899.719 205.366-39.811c81.087-56.205 107.699-165.741 180.859-231.925 60.99-55.193 153.1-73.396 230.48-45.533"
+                    stroke-opacity=".12"></path>
+            </svg>
+            <div class="container dark-mode position-relative zindex-5 pt-5 mt-4 mt-lg-5">
+                <div class="row justify-content-center text-center pt-md-2 pt-lg-0 pt-xl-2 pb-5 mb-md-2">
+                    <div class="col-lg-10 col-xl-9 col-xxl-8"><span
+                            class="badge bg-faded-light fs-sm text-white px-3 mb-4">Take your customer experience to the
+                            next level</span>
+                        <h1 class="display-4 mb-sm-4">Enhance customer experience with xanatik viSearch AI</h1>
+                        <p class="pb-3 mb-3 mb-lg-4">Add image search to your e-commerce store in 5 minutes. No code
+                            solution</p><a class="btn btn-lg btn-light" href="#">Start free 14-day trial</a>
+                    </div>
+                </div>
+                <div class="bg-black rounded-4 p-2 mx-auto" style="max-width: 1160px;">
+                    <div class="overflow-hidden" style="border-radius: calc(var(--ar-border-radius) * 1.25);">
+                        <img-comparison-slider class="m-n1">
+                            <figure slot="first"><img src="assets/img/visearch_dashboard.jpg"
+                                    alt="Dashboard Dark Mode"></figure>
+                        </img-comparison-slider>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container pt-5 pb-xxl-3 mt-5">
+            <div class="row">
+                <div class="col-lg-4 pb-3 mb-3">
+                    <h2 class="h1">Optimize Experience</h2>
+                    <p class="pe-5 mb-0">Tools to make your customer shop as though they were in an actual mall.</p>
+                </div>
+                <div class="col-lg-8">
+                    <div class="row row-cols-1 row-cols-sm-2 g-4">
+                        <div class="col">
+                            <!-- Item-->
+                            <div class="card border-0 bg-secondary rounded-5 mb-4">
+                                <div class="card-body pb-3">
+                                    <svg class="d-block mt-1 mt-sm-0 mb-4" width="40" height="40" viewBox="0 0 40 40"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g class="text-info">
+                                            <path
+                                                d="M34.9811 16.2655C34.3635 26.3194 26.3194 34.3634 16.2656 34.981V40H40V16.2655H34.9811Z"
+                                                fill="currentColor"></path>
+                                        </g>
+                                        <g class="text-info">
+                                            <path
+                                                d="M15.0195 30.0413C23.3152 30.0413 30.0403 23.3163 30.0403 15.0205H15.0195V30.0413Z"
+                                                fill="currentColor"></path>
+                                        </g>
+                                        <g class="text-primary">
+                                            <path
+                                                d="M29.1953 10.0415C27.141 4.19328 21.571 0 15.0208 0C6.725 0 0 6.725 0 15.0208C0 21.571 4.19328 27.141 10.0415 29.1953V10.0415H29.1953Z"
+                                                fill="currentColor"></path>
+                                        </g>
+                                    </svg>
+                                    <h3 class="h4">Visual Search</h3>
+                                    <p class="mb-0">Aura helps your target customer find products on your website in a
+                                        much more friendly manner. Most often customer might not know the exact name for
+                                        a product. Giving them a chance to shop visually is next level.</p>
+                                </div>
+                            </div>
+                            <!-- Item-->
+                            <div class="card border-0 bg-secondary rounded-5">
+                                <div class="card-body pb-3">
+                                    <svg class="d-block mt-1 mt-sm-0 mb-4" width="40" height="40" viewBox="0 0 40 40"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g class="text-info">
+                                            <path
+                                                d="M20.0004 36.0226L10.982 21.3535C9.42594 23.3156 8.49609 25.7968 8.49609 28.4955C8.49609 34.8492 13.6467 39.9998 20.0004 39.9998C26.3541 39.9998 31.5047 34.8492 31.5047 28.4955C31.5047 25.7969 30.5749 23.3156 29.0188 21.3535L20.0004 36.0226Z"
+                                                fill="currentColor"></path>
+                                        </g>
+                                        <g class="text-primary">
+                                            <path
+                                                d="M39.3962 0H0.605469L20.0009 31.5477L39.3962 0ZM25.7601 7.62359L20.0009 16.9914L14.2416 7.62359H25.7601Z"
+                                                fill="currentColor"></path>
+                                        </g>
+                                    </svg>
+                                    <h3 class="h4">Search optimization</h3>
+                                    <p class="mb-0">Optimize search to fit various criteria that goes way beyond the
+                                        regular visual way of visualizing and comparing things. Its more accurate and
+                                        brings an extra layer of simplicity into the mix. Its all about creating a
+                                        customer centric brand</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <!-- Item-->
+                            <div class="card border-0 bg-secondary rounded-5 mb-4">
+                                <div class="card-body pb-3">
+                                    <svg class="d-block mt-1 mt-sm-0 mb-4" width="40" height="40" viewBox="0 0 40 40"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g class="text-primary">
+                                            <path
+                                                d="M25.2791 12.7502C28.1954 9.83389 28.1954 5.10556 25.2791 2.18921C22.3627 -0.727136 17.6344 -0.727137 14.718 2.18921C11.8017 5.10556 11.8017 9.83389 14.718 12.7502C17.6344 15.6666 22.3627 15.6666 25.2791 12.7502Z"
+                                                fill="currentColor"></path>
+                                        </g>
+                                        <g class="text-info">
+                                            <path
+                                                d="M14.6859 29.3056C15.6559 27.0123 16.9202 24.8838 18.4577 22.9467C13.8666 17.9802 7.29664 14.8701 0 14.8701V40.0004H12.5259C12.5259 36.2925 13.2527 32.6942 14.6859 29.3056Z"
+                                                fill="currentColor"></path>
+                                        </g>
+                                        <g class="text-primary">
+                                            <path
+                                                d="M40.0014 40.0004V14.8701C26.1223 14.8701 14.8711 26.1214 14.8711 40.0004H40.0014Z"
+                                                fill="currentColor"></path>
+                                        </g>
+                                    </svg>
+                                    <h3 class="h4">Customer Insights</h3>
+                                    <p class="mb-0">Get a deeper understanding of how your customer interact with your
+                                        website. And understand the potential difficulties they face while shopping for
+                                        items on your website. You can build on this to create an even better shopping
+                                        experience</p>
+                                </div>
+                            </div>
+                            <!-- Item-->
+                            <div class="card border-0 bg-secondary rounded-5">
+                                <div class="card-body pb-3">
+                                    <svg class="d-block mt-1 mt-sm-0 mb-4" width="40" height="40" viewBox="0 0 40 40"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g class="text-primary">
+                                            <path
+                                                d="M19.9999 0C11.1313 0 3.61211 5.77313 0.992188 13.7659H39.0077C36.3877 5.77313 28.8686 0 19.9999 0Z"
+                                                fill="currentColor"></path>
+                                        </g>
+                                        <g class="text-info">
+                                            <path
+                                                d="M7.29328 16.1094H0.379453C0.131328 17.368 0 18.6684 0 19.9998C0 26.9291 3.52437 33.0348 8.87797 36.6237L18.3427 27.1589L7.29328 16.1094Z"
+                                                fill="currentColor"></path>
+                                        </g>
+                                        <g class="text-primary">
+                                            <path
+                                                d="M10.9688 37.848C13.6819 39.2238 16.7505 39.9998 20.0007 39.9998C31.0464 39.9998 40.0007 31.0455 40.0007 19.9998C40.0007 18.6684 39.8694 17.3679 39.6213 16.1094H32.7074L10.9688 37.848Z"
+                                                fill="currentColor"></path>
+                                        </g>
+                                    </svg>
+                                    <h3 class="h4">Product Recommendations</h3>
+                                    <p class="mb-0">Xenatik Vsearch AI identifies customer browsing patterns across
+                                        multiple factors like location, product categories to power better product
+                                        recommendation engines.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Features-->
+        <section class="container py-4 pt-sm-5 pb-md-5 my-2 my-lg-3 my-xxl-4">
+
+
+            <!-- Item-->
+            <div class="row align-items-center py-3 py-sm-4 py-lg-5 my-sm-2 my-md-3 my-lg-0 my-xl-2 my-xxl-4">
+                <div class="col-md-6 col-lg-7 col-xl-6 offset-xl-1 order-md-2 pb-1 pb-sm-2 pb-md-0 mb-4 mb-md-0"><img
+                        class="d-block rounded-5" src="assets/img/search_button.jpg" alt="Image"></div>
+                <div class="col-md-6 col-lg-5 order-md-1">
+                    <div class="pe-md-4 pe-lg-0">
+                        <h2 class="h1 pb-sm-2 pb-lg-3">Discovery Button</h2>
+                        <p class="fs-xl mb-lg-4">Embed a visual search button on your website and leverage the full
+                            power of visual search. The simplicity and speed has been estimated to drive customer
+                            engagement 60% and improves click through rate by 70%</p>
+                        <a class="btn btn-primary" href="contact.html">Book a free demo</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row align-items-center py-3 py-sm-4 py-lg-5 my-sm-2 my-md-3 my-lg-0 my-xl-2 my-xxl-4">
+                <div class="col-md-6 col-lg-7 col-xl-6 offset-xl-1 order-md-2 pb-1 pb-sm-2 pb-md-0 mb-4 mb-md-0"><img
+                        class="d-block rounded-5" src="assets/img/recommendation.jpg" alt="Image"></div>
+                <div class="col-md-6 col-lg-5 order-md-1">
+                    <div class="pe-md-4 pe-lg-0">
+                        <h2 class="h1 pb-sm-2 pb-lg-3">Visual Recommendation</h2>
+                        <p class="fs-xl mb-lg-4">Perform smart upSells and cross sales with accurate visual
+                            recommendations. Our AI helps your customer get an instant visual comparison for all similar
+                            items on your website. This has improve the average time spent on-site by 30%.</p>
+                        <a class="btn btn-primary" href="contact.html">Book a free demo</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row align-items-center py-3 py-sm-4 py-lg-5 my-sm-2 my-md-3 my-lg-0 my-xl-2 my-xxl-4">
+                <div class="col-md-6 col-lg-7 col-xl-6 offset-xl-1 order-md-2 pb-1 pb-sm-2 pb-md-0 mb-4 mb-md-0"><img
+                        class="d-block rounded-5" src="assets/img/visual_search.jpg" alt="Image"></div>
+                <div class="col-md-6 col-lg-5 order-md-1">
+                    <div class="pe-md-4 pe-lg-0">
+                        <h2 class="h1 pb-sm-2 pb-lg-3">Visual Search</h2>
+                        <p class="fs-xl mb-lg-4">Every photo is finally a search term on its own. You can use the
+                            information found in a photo to accurately make the most out of search results. Get accurate
+                            results and similarities from every visual clues on the photo.</p>
+                        <a class="btn btn-primary" href="contact.html">Book a free consultation</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Testimonials-->
+        <section class="container pt-xxl-2 pb-5 mb-lg-4 mb-xxl-5">
+            <div class="row pb-2 pb-sm-3 pb-md-4 pb-xl-5 mb-md-2">
+                <div class="col-md-9 col-lg-7 order-md-2">
+                    <!-- Swiper slider-->
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <!-- Item-->
+                            <div class="swiper-slide" data-swiper-binded="#testimonial-2">
+                                <div class="d-flex d-md-none pt-3 mb-3"><i
+                                        class="ai-quotes d-md-none text-primary display-3 mt-n2"></i>
+                                    <div class="ps-3">
+                                        <h3 class="h5 mb-0">Robert Fox</h3>
+                                        <p class="text-muted mb-0">Marketing Coordinator</p>
+                                    </div>
+                                </div>
+                                <h2 class="mb-lg-4">Exceptional work, delivery and flexibility. An excellent result.
+                                </h2>
+                                <p class="lead mb-0">When the Folks at xenatik first reach out to us very early in their
+                                    product. I was very skeptical on how this will work and how effective it could
+                                    create engagement for our customers. But today fast forward 8 months, I can
+                                    confidently say they're on track to disrupt how customer shop and discover products
+                                    today. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 offset-lg-1 order-md-1 mt-n3"><i
+                        class="ai-quotes d-none d-md-block text-primary ms-n2 mb-1" style="font-size: 150px;"></i>
+                    <div class="binded-content h-auto d-none d-md-block">
+                        <div class="binded-item h-auto active" id="testimonial-1">
+                            <h3 class="h5 mb-1">Lilia Bocouse</h3>
+                            <p class="text-muted mb-0">Head of Marketing</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Contact CTA-->
+        <section class="position-relative mt-n5 mt-lg-0">
+            <div class="bg-secondary position-absolute bottom-0 start-0 w-100" style="height: calc(100% - 3rem);"></div>
+            <div class="container position-relative zindex-2">
+                <div class="row">
+                    <div class="col-lg-6 py-5 mb-sm-2 mb-md-3 mb-lg-5 mt-3 mt-sm-4 mt-md-5">
+                        <h2 class="h1 text-center text-lg-start pt-3 mt-3 mb-4">Don't miss out <br
+                                class='d-none d-lg-inline'>on the oppotunity</h2>
+                        <div class="d-flex justify-content-between mx-auto mx-lg-0" style="max-width: 370px;">
+                            <ul class="ps-4 me-3">
+                                <li class="mt-2">No-code solution</li>
+                                <li class="mt-2">better Customer retaintion </li>
+                                <li class="mt-2">Understand Customer activity</li>
+                            </ul>
+                            <ul class="ps-4">
+                                <li class="mt-2">Optimize Engagment rates</li>
+                                <li class="mt-2">Drive More sales</li>
+                                <li class="mt-2">Increase customer livetime value</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div
+                            class="bg-primary d-flex flex-column align-items-center justify-content-center position-relative h-100 rounded-5 rounded-bottom-0 p-5">
+                            <div class="dark-mode position-relative zindex-2 py-sm-3 py-md-4" style="max-width: 360px;">
+                                <h2 class="h1">Ready to start selling more?</h2>
+                                <p class="mb-0">Xenatik is packed with all the tools to improve customer engagement and
+                                    drive sales.</p>
+                                <div class="d-flex flex-column flex-sm-row align-items-center pt-3 mt-3 mt-lg-4"><a
+                                        class="btn btn-light w-100 w-sm-auto me-sm-4 mb-2 mb-sm-0"
+                                        href="contact.html">Contact us</a><a
+                                        class="d-inline-block text-white fw-medium p-2"
+                                        href="mailto:email@example.com">hello@xenatik.com</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    </main>
+    <!-- Footer-->
+    <footer class="footer dark-mode bg-dark py-5">
+        <div class="container pt-md-2 pt-lg-3 pt-xl-4">
+            <div class="row pb-5 pt-sm-2 mb-lg-2">
+                <div class="col-md-4 col-lg-3 pb-2 pb-md-0 mb-4 mb-md-0"><a class="navbar-brand py-0 mb-3 mb-md-4"
+                        href="index.html"><span class="text-primary flex-shrink-0 me-2">
+                            <svg width="200" height="25" viewBox="0 0 215 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M30.0709 8.2093C30.4888 8.53447 30.4582 9.10739 30.1983 9.56934C29.7727 10.3255 27.5072 13.7398 22.1709 14.6327C22.1021 14.6456 20.9859 14.7179 20.8483 14.7179C18.0069 14.6818 15.8688 15.1515 14.2658 15.8224C11.4499 16.9967 9.41372 19.5619 8.82759 22.5865C8.75623 22.9582 8.71291 23.3143 8.72056 23.6188C8.79701 26.3492 9.92339 27.7764 11.7047 28.8009C12.5584 29.2913 13.5472 29.57 14.5997 29.57C17.0767 29.57 19.1944 28.019 20.0608 25.8228C20.3284 25.1389 20.4788 24.3956 20.4788 23.6162C20.4788 22.8498 20.4915 22.5762 20.2316 21.9026C20.1067 21.5749 19.518 20.0419 20.9834 19.1774C21.6281 18.798 22.3671 18.5683 23.1648 18.5683C25.5144 18.5683 27.4537 20.4961 27.4206 22.8782C27.4078 23.7504 26.6815 25.3066 26.0037 26.086L26.0011 26.0886C23.3253 29.4719 19.2122 31.6397 14.5971 31.6397C11.8729 31.6397 9.32197 30.8836 7.13801 29.5674C6.86024 29.3997 6.58501 29.2216 6.31998 29.0358C4.76037 27.9519 3.42247 26.566 2.38274 24.9608C0.876643 22.6356 0 19.851 0 16.8599C0 12.2017 2.12535 8.04929 5.44844 5.33695C5.95556 4.92145 6.49072 4.54208 7.05137 4.19885C7.52537 3.9098 7.64769 3.26462 7.3113 2.82074C6.72772 2.04652 6.06769 1.33424 5.3465 0.694216C5.11715 0.490338 5.23437 0.108391 5.54018 0.0774219C6.03202 0.0258073 6.53405 0 7.03863 0C9.76284 0 12.3138 0.756153 14.4977 2.07232C14.5309 2.06974 14.5691 2.06974 14.6022 2.06974C19.1536 2.15749 22.8743 4.00529 25.5501 7.0712C26.126 7.73186 27.0281 8.01574 27.864 7.77832C28.0806 7.71638 28.2921 7.69831 28.5444 7.68283C29.2579 7.64154 29.6479 7.88154 30.0709 8.2093Z"
+                                    fill="white" />
+                                <path
+                                    d="M62.1425 30.414L52.7134 17.1593C52.6523 17.0742 52.6523 16.9606 52.7134 16.8729L60.537 5.84542C60.6516 5.68284 60.537 5.45831 60.3407 5.45831H53.2766C53.1951 5.45831 53.1212 5.49702 53.0753 5.56412L49.1661 11.4043C49.0693 11.5463 48.8628 11.5463 48.766 11.4069L44.7523 5.56154C44.709 5.49702 44.6351 5.45831 44.5535 5.45831H37.4894C37.2932 5.45831 37.1785 5.68284 37.2932 5.84542L45.1142 16.8729C45.1753 16.958 45.1753 17.0742 45.1142 17.1593L35.6342 30.414C35.5195 30.574 35.6317 30.8011 35.8304 30.8011H42.841C42.92 30.8011 42.9939 30.7624 43.0372 30.6978L48.7176 22.6176C48.8144 22.4782 49.0157 22.4808 49.11 22.6176L54.7369 30.6978C54.7827 30.7624 54.8566 30.8011 54.9356 30.8011H61.9462C62.145 30.8011 62.2571 30.574 62.1425 30.414Z"
+                                    fill="white" />
+                                <path
+                                    d="M86.0765 8.55C83.6657 6.1267 80.6383 4.91376 76.9941 4.91376C73.3499 4.91376 70.2766 6.1267 67.7766 8.55C65.2766 10.9759 64.0254 14.1399 64.0254 18.0471C64.0254 21.9543 65.2766 25.1493 67.7766 27.6267C70.2766 30.1042 73.3499 31.343 76.9941 31.343C79.494 31.343 81.7978 30.8372 83.9078 29.8255C85.9389 28.8474 87.4909 27.3816 88.5612 25.4305C88.6249 25.3118 88.5765 25.157 88.4592 25.0925C86.2422 23.8924 84.7208 23.064 83.8976 22.6098C83.783 22.5479 83.6428 22.5917 83.5765 22.7027C83.0057 23.6524 82.1877 24.3905 81.1199 24.9118C79.9757 25.4744 78.7448 25.7531 77.4222 25.7531C75.5644 25.7531 74.0023 25.2654 72.7332 24.2899C71.538 23.3685 70.8117 22.1427 70.5518 20.6097C70.5263 20.4626 70.6435 20.3284 70.7913 20.3284H89.3639C89.4913 20.3284 89.5958 20.2278 89.606 20.1013C89.6646 19.3865 89.6952 18.7026 89.6952 18.0471C89.6952 14.1399 88.4898 10.9759 86.0765 8.55ZM83.0312 15.8225H70.7455C70.5951 15.8225 70.4779 15.6857 70.5059 15.536C70.7913 14.0082 71.4998 12.7927 72.6262 11.8895C73.8239 10.9294 75.2969 10.4494 77.0476 10.4494C78.6913 10.4494 80.0853 10.9217 81.2269 11.8611C82.3049 12.7488 82.9879 13.9747 83.2707 15.536C83.2988 15.6857 83.1816 15.8225 83.0312 15.8225Z"
+                                    fill="white" />
+                                <path
+                                    d="M116.086 7.70869C114.46 5.84798 112.164 4.91376 109.201 4.91376C107.7 4.91376 106.252 5.30345 104.861 6.08283C103.739 6.70736 102.847 7.50481 102.19 8.47C102.055 8.66614 101.752 8.57065 101.752 8.33064V5.70346C101.752 5.56668 101.645 5.45829 101.51 5.45829H95.4546C95.3221 5.45829 95.2151 5.56668 95.2151 5.70346V30.5559C95.2151 30.6927 95.3221 30.801 95.4546 30.801H101.51C101.645 30.801 101.752 30.6927 101.752 30.5559V17.2884C101.752 15.2263 102.261 13.7244 103.278 12.785C104.298 11.843 105.61 11.3733 107.218 11.3733C108.683 11.3733 109.843 11.8611 110.702 12.8392C111.558 13.8147 111.986 15.2083 111.986 17.0174V30.5559C111.986 30.6927 112.096 30.801 112.228 30.801H118.283C118.418 30.801 118.525 30.6927 118.525 30.5559V15.8225C118.525 12.2766 117.712 9.57455 116.086 7.70869Z"
+                                    fill="white" />
+                                <path
+                                    d="M150.864 5.45829H144.809C144.677 5.45829 144.567 5.56668 144.567 5.70346V7.85837C144.567 8.09063 144.282 8.1887 144.136 8.00805C143.359 7.04286 142.35 6.30993 141.111 5.80927C139.628 5.21312 138.191 4.91376 136.797 4.91376C133.331 4.91376 130.339 6.13702 127.822 8.57839C125.304 11.0198 124.045 14.1941 124.045 18.1013C124.045 22.0085 125.311 25.1854 127.85 27.6268C130.385 30.0681 133.367 31.2888 136.797 31.2888C138.191 31.2888 139.646 30.9636 141.165 30.3133C142.421 29.7739 143.413 29.0513 144.144 28.1403C144.284 27.9648 144.567 28.0732 144.567 28.3003V30.5559C144.567 30.6927 144.677 30.8011 144.809 30.8011H150.864C150.997 30.8011 151.106 30.6927 151.106 30.5559V5.70346C151.106 5.56668 150.997 5.45829 150.864 5.45829ZM142.531 23.0666C141.173 24.3157 139.567 24.9402 137.709 24.9402C135.852 24.9402 134.233 24.2976 132.86 23.0124C131.484 21.7298 130.796 20.0936 130.796 18.1013C130.796 16.1141 131.484 14.4754 132.86 13.1902C134.233 11.9075 135.852 11.2649 137.709 11.2649C139.531 11.2649 141.129 11.8791 142.505 13.1102C143.879 14.3386 144.567 16.0031 144.567 18.1013C144.567 20.1633 143.889 21.8201 142.531 23.0666Z"
+                                    fill="white" />
+                                <path
+                                    d="M172.138 5.45826H167.317C167.289 5.45826 167.263 5.4531 167.238 5.44278H160.428C160.403 5.4531 160.377 5.45826 160.349 5.45826H156.277C156.144 5.45826 156.035 5.56665 156.035 5.70343V10.532C156.035 10.6662 156.144 10.7771 156.277 10.7771H160.349C160.482 10.7771 160.591 10.8855 160.591 11.0197V30.5558C160.591 30.6926 160.698 30.801 160.834 30.801H166.832C166.967 30.801 167.074 30.6926 167.074 30.5558V11.0197C167.074 10.8855 167.184 10.7771 167.317 10.7771H172.138C172.273 10.7771 172.38 10.6662 172.38 10.532V5.70343C172.38 5.56665 172.273 5.45826 172.138 5.45826Z"
+                                    fill="white" />
+                                <path
+                                    d="M183.552 5.45831H177.551C177.418 5.45831 177.311 5.5667 177.311 5.70348V30.5559C177.311 30.6927 177.418 30.8011 177.551 30.8011H183.552C183.687 30.8011 183.794 30.6927 183.794 30.5559V5.70348C183.794 5.5667 183.687 5.45831 183.552 5.45831Z"
+                                    fill="white" />
+                                <path
+                                    d="M214.935 30.3907L202.701 16.7515C202.617 16.656 202.617 16.5115 202.706 16.4186L212.662 5.87118C212.81 5.71634 212.701 5.45826 212.486 5.45826H204.691C204.625 5.45826 204.561 5.48665 204.515 5.53569L198.093 12.594C197.943 12.7591 197.673 12.6508 197.673 12.4288V5.44278H191.19V30.5558C191.19 30.6926 191.297 30.801 191.432 30.801H197.431C197.566 30.801 197.673 30.6926 197.673 30.5558V20.5968C197.673 20.3697 197.948 20.2639 198.096 20.4342L207.033 30.7184C207.079 30.7701 207.145 30.801 207.214 30.801H214.757C214.969 30.801 215.078 30.5481 214.935 30.3907Z"
+                                    fill="white" />
+                            </svg></a>
+                    <p class="fs-sm pb-2 pb-md-3 mb-3">Get better customer behavior insights and optimize sales with
+                        Xenatik.</p>
+                    <!-- <div class="d-flex"><a class="btn btn-icon btn-sm btn-secondary btn-facebook rounded-circle me-3" href="#"><i class="ai-facebook"></i></a><a class="btn btn-icon btn-sm btn-secondary btn-instagram rounded-circle me-3" href="#"><i class="ai-instagram"></i></a><a class="btn btn-icon btn-sm btn-secondary btn-linkedin rounded-circle" href="#"><i class="ai-linkedin"></i></a></div> -->
+                </div>
+                <div class="col-md-8 col-lg-7 col-xl-6 offset-lg-2 offset-xl-3">
+                    <div class="row row-cols-1 row-cols-sm-3">
+                        <div class="col mb-4 mb-md-0">
+                            <h4 class="h6 fw-bold pb-lg-1">Products</h4>
+                            <ul class="nav flex-column">
+                                <li><a class="nav-link fw-normal py-1 px-0" href="v_search.html">Xenatik V-search</a>
+                                </li>
+                                <li><a class="nav-link fw-normal py-1 px-0" href="engage.hml">Xenatik Enage</a></li>
+                                <li><a class="nav-link fw-normal py-1 px-0" href="pricing.html">Pricing</a></li>
+                            </ul>
+                        </div>
+                        <div class="col mb-4 mb-md-0">
+                            <h4 class="h6 fw-bold pb-lg-1">Resources</h4>
+                            <ul class="nav flex-column">
+                                <li><a class="nav-link fw-normal py-1 px-0" href="contact.html">Contact Us</a></li>
+                                <li><a class="nav-link fw-normal py-1 px-0" href="terms.html">Terms of service</a></li>
+                                <li><a class="nav-link fw-normal py-1 px-0" href="privacy.html">Privacy policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="fs-sm mb-0"><span class="opacity-70">&copy; All rights reserved. Designed by </span><a
+                    class="nav-link d-inline fw-normal p-0" href="bickdrim.com" target="_blank"
+                    rel="noopener">Bickdrim</a></p>
+        </div>
+    </footer>
+    <!-- Back to top button--><a class="btn-scroll-top" href="#top" data-scroll>
+        <svg viewBox="0 0 40 40" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="20" cy="20" r="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10">
+            </circle>
+        </svg><i class="ai-arrow-up"></i></a>
+    <!-- Vendor scripts: js libraries and plugins-->
+    <script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="assets/vendor/parallax-js/dist/parallax.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/aos/dist/aos.js"></script>
+    <!-- Main theme script-->
+    <script src="assets/js/theme.min.js"></script>
+ 
+</body>
+
+</html>
